@@ -1703,7 +1703,7 @@ notebook {
         border-color: #2c2c2c; }
       notebook > header > tabs > tab:checked {
         color: #F7F7F7;
-        background-color: rgba(46, 46, 46, 0.95);
+        background-color: rgba(74, 74, 74, 0.7);
         border-color: #2c2c2c;
         border-left: 4px solid #926C39;
         border-right: 4px solid #926C39;
@@ -2920,21 +2920,9 @@ modelbutton.flat:selected arrow, treeview.view:selected, treeview.view:selected:
     modelbutton.flat:selected arrow:disabled, treeview.view:disabled:selected:focus, row:disabled:selected, calendar:disabled:selected, .nemo-window .nemo-window-pane widget.entry:disabled:selected {
       color: #c5b298; }
 
-filechooser placessidebar.sidebar row.sidebar-row.has-open-popup:selected, filechooser placessidebar.sidebar row.sidebar-row:selected, filechooser placessidebar.sidebar row.sidebar-row:selected:hover, filechooser placessidebar.sidebar row.sidebar-row:active:hover,
-.nautilus-window placessidebar.sidebar row.sidebar-row.has-open-popup:selected,
-.nautilus-window placessidebar.sidebar row.sidebar-row:selected,
-.nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover,
-.nautilus-window placessidebar.sidebar row.sidebar-row:active:hover {
-  background-color: transparent; }
-  row:selected label, label:selected, filechooser placessidebar.sidebar row.sidebar-row.has-open-popup:selected, filechooser placessidebar.sidebar row.sidebar-row:selected, filechooser placessidebar.sidebar row.sidebar-row:selected:hover, filechooser placessidebar.sidebar row.sidebar-row:active:hover,
-  .nautilus-window placessidebar.sidebar row.sidebar-row.has-open-popup:selected,
-  .nautilus-window placessidebar.sidebar row.sidebar-row:selected,
-  .nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover,
-  .nautilus-window placessidebar.sidebar row.sidebar-row:active:hover {
+  row:selected label, label:selected {
     color: #F7F7F7; }
-    row:selected label:disabled, label:disabled:selected, filechooser placessidebar.sidebar row.sidebar-row:disabled:selected, filechooser placessidebar.sidebar row.sidebar-row:disabled:active:hover,
-    .nautilus-window placessidebar.sidebar row.sidebar-row:disabled:selected,
-    .nautilus-window placessidebar.sidebar row.sidebar-row:disabled:active:hover {
+    row:selected label:disabled, label:disabled:selected {
       color: #c5b298; }
 
 .gedit-bottom-panel-paned notebook > header.top > tabs > tab:checked,
@@ -3980,7 +3968,8 @@ filechooser placessidebar.sidebar,
   .nautilus-window placessidebar.sidebar row.sidebar-row {
     border: none;
     color: #F7F7F7;
-    padding-left: 8px; }
+    padding-left: 4px;
+    padding-right: 4px; }
     filechooser placessidebar.sidebar row.sidebar-row .sidebar-icon,
     .nautilus-window placessidebar.sidebar row.sidebar-row .sidebar-icon {
       color: rgba(72, 72, 72, 0.95); }
@@ -3999,9 +3988,12 @@ filechooser placessidebar.sidebar,
     .nautilus-window placessidebar.sidebar row.sidebar-row:selected,
     .nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover,
     .nautilus-window placessidebar.sidebar row.sidebar-row:active:hover {
+      background-color: rgba(59, 59, 59, 0.95);
+      color: #F7F7F7;
       border-left: 4px solid #926C39;
       border-right: 4px solid #926C39;
-      padding-left: 0px; }
+      padding-left: 0px;
+      padding-right: 0px; }
       filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup .sidebar-icon, filechooser placessidebar.sidebar row.sidebar-row:selected .sidebar-icon, filechooser placessidebar.sidebar row.sidebar-row:selected:hover .sidebar-icon, filechooser placessidebar.sidebar row.sidebar-row:active:hover .sidebar-icon,
       .nautilus-window placessidebar.sidebar row.sidebar-row:selected.has-open-popup .sidebar-icon,
       .nautilus-window placessidebar.sidebar row.sidebar-row:selected .sidebar-icon,

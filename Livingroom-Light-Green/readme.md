@@ -1,15 +1,18 @@
-Credits
-=======
+# Credits
+This themes base on <b>Arc-Theme</b> </br>
+Links : https://github.com/horst3180/arc-theme</br>
+License : GPLv3 (https://choosealicense.com/licenses/gpl-3.0/)</br>
 
-This themes base on Arc-Theme 
-Links : https://github.com/horst3180/arc-theme
-Author : horst3180 (https://www.deviantart.com/horst3180)
-License : GPLv3 (https://choosealicense.com/licenses/gpl-3.0/)
+# Installation
 
-Installation
-============
+Needed : GTK+ 3.22</br>
+Have been test on : Debian Stretch (9.5), Ubuntu 18.04.1 LTS, Linux Mint 19</br>
+Install themes : For a better result, Extract Archive File On Directory<i> /usr/share/themes (as root),</i> </br>
+If you install theme on local system, <i>/.themes or /.local/share/themes</i> may be GTK2 Theme not working properly.</br>
+Download Themes : https://www.opendesktop.org/p/1245588/</br>
 
-Running well on Debian Stretch (9), Ubuntu 18.04 LTS, Linux Mint 19 with GTK+ 3.22
+## Change themes
 
-For a better result, Extract Archive File On Directory /usr/share/themes (as root), If you install theme on local system, /.themes or /.local/share/themes may be GTK2 Theme not working properly.
-
+"This is the theme of gtk+ 3 and gk+ 2. You can use it on Linux distributions in every desktop environment that supports it"</br>
+Debian, Ubuntu (Gnome Desktop) : Use Tweak Tool to change the themes, Gnome Tweak > Appeareance > Themes</br>
+Linux Mint (Cinnamon): Menu > Settings > Themes > Themes > Controls</br>
